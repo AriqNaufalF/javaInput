@@ -16,10 +16,14 @@ public class App {
        System.out.print("NIM: ");       
        nim = myObj.nextLong();        //! Input data NIM 
 
-       System.out.print("IPK: ");
+       System.out.print("IPK: ");    
        ipk = myObj.nextFloat();        //! Input data IPK 
 
+       System.out.println("=".repeat(30));
+
        System.out.println("Halo " + nama + "! \nDari kelas " + kelas + "\nDengan NIM: " + nim + "\nIPK kamu " + ipk); //Output ke terminal
+
+       System.out.println("=".repeat(30));
 
     }
 }
