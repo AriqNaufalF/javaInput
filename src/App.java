@@ -4,19 +4,22 @@ public class App {
     public static void main(String[] args) {
        Scanner myObj = new Scanner(System.in); //! Import scanner obj
        String nama, kelas; //input variabel
-       Double ipk;
+       float ipk;
+       long nim;
     
        System.out.print("Nama: ");
        nama = myObj.nextLine();         //! Input data nama
 
        System.out.print("kelas: ");       
-       kelas = myObj.nextLine();        //! Input data Kelas 
+       kelas = myObj.nextLine();        //! Input data Kelas
+
+       System.out.print("NIM: ");       
+       nim = myObj.nextLong();        //! Input data NIM 
 
        System.out.print("IPK: ");
-       ipk = myObj.nextDouble();        //! Input data IPK 
+       ipk = myObj.nextFloat();        //! Input data IPK 
 
-       System.out.println("Halo " + nama + "! \nDari kelas " + kelas + "\nIPK kamu " + ipk); //Output ke terminal
-
+       System.out.println("Halo " + nama + "! \nDari kelas " + kelas + "\nDengan NIM: " + nim + "\nIPK kamu " + ipk); //Output ke terminal
 
     }
 }
